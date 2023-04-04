@@ -10,6 +10,7 @@ Triển khai một ứng dụng Web PHP đơn giản dưới dạng Micro Servic
 * Các máy ảo được cài đặt K8s và Docker.
 ### **1.2. Mô hình**
 ![system](/images/system.png)
+
 Hệ thống ứng dụng Web PHP triển khai theo mô hình Micro Service gồm có 3 thành phần là PHP, máy chủ web Httpd, phần mềm cơ sở dữ liệu MySQL được triển khai dưới dạng các container. Các Container được custom lại theo các cách:
 * PHP: build lại image, sử dụng Dockerfile
 * Httpd và MySQL: sử dụng file cấu hình tuỳ chỉnh, sử dụng K8s Configmap
