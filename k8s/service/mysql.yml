@@ -25,7 +25,7 @@ spec:
             name: mysql-config
       containers:
       - name: c-mysql
-        image: mysql:latest
+        image: docker.io/mysql:latest
         resources:
           limits:
             memory: "500M"

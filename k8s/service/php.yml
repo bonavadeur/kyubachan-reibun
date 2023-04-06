@@ -22,7 +22,7 @@ spec:
             claimName: code-pvc
       containers:
       - name: c-php
-        image: daohiep22/msproject:php
+        image: docker.io/daohiep22/msproject:php
         resources:
           limits:
             memory: "100M"
